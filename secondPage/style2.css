@@ -1,0 +1,156 @@
+/* style for the hole web */
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400;1,500&display=swap');
+
+*{margin: 0;padding: 0;}
+body{
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+section{
+   padding: 80px 0;
+}
+
+
+/* style for header of banner  */
+header{
+    margin:50px 0;
+    color: white;
+}
+.bannerWrapper{
+    display: flex;
+    background-color: rgb(35 24 24);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannerInfo{
+    width: 33%;
+    margin: 80px 88px;
+}
+.bannerPhoto{
+    width: 55%;
+}
+.bannerTitle {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+.liveBtn{
+    padding: 14px 15px;
+    background-color: #7da42d;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+.liveBtn a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+.bImg {
+    width: 70%;
+    margin-top: 29px;
+    margin-bottom: -7px;
+}
+
+/* match card section */
+
+.matchSectionWrapper {
+    display: flex;
+    flex-grow: 5;
+    justify-content: space-between;
+}
+
+.matchLiveCardWrapper {display: grid;grid-template-columns: repeat(3,1fr);grid-gap: 1.5em;}
+
+
+
+/* button box style */
+.buttonBox {
+    background: #231818;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 31px;
+}
+.mbtn {
+    background: #fff;
+    padding: 15px 65px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+
+.mbtn a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+button.upcoming{
+    background: #7da42d;
+}
+
+
+/* card style for live card with flag */
+.singleLiveCard {
+    border: 1px solid #c8c3c3;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 38px;
+    width: 300px;
+}
+.flagTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flagMeta {
+    margin-top: 15px;
+}
+
+
+/* footer style */
+
+footer {
+    background: #231818;
+    padding: 100px 0;
+}
+.footerTitle {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+.footerElement {
+    color: #a5a0a0;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 130px;
+}
+
+
+
+
+
+
+/* --------------------------------------------
+this style is only for responsive style for tablet
+ ------------------------------------------------*/
+
+
+ @media screen and (min-device-width: 768px) and (max-device-width: 1023px) { 
+    /* STYLES HERE */
+
+    
+
+ }
