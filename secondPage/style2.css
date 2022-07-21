@@ -143,6 +143,7 @@ footer {
 
 
 
+
 /* --------------------------------------------
 this style is only for responsive style for tablet
  ------------------------------------------------*/
@@ -151,6 +152,126 @@ this style is only for responsive style for tablet
  @media screen and (min-device-width: 768px) and (max-device-width: 1023px) { 
     /* STYLES HERE */
 
+   
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .bannerTitle {
+        font-size: 2.7rem;
+    }
+    .bannerInfo {
+        width: 61%;
+        margin: 80px 88px;
+    }
+    .bannerPhoto {
+        width: 61%;
+    }.bImg {
+        width: 100%;
+    }
+    .matchSectionWrapper {
+        display: block;
+    }
+    .buttonBox {
+        display: block;
+        background: transparent;
+    }
+    .matchLiveCardWrapper {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 2em;
+    }
     
+    .singleCard { width: 100%;}
+    .footerElement {
+        display: block;
+        width: 71%;
+        text-align: center;
+    }
+    
+    .footerElement span {
+        margin: 20px;
+    }
+    .buttonBoxtblet {
+        display: block;
+    }
+    .mbtn {
+        padding: 13px 14px;
+        width: 30%;
+        margin: 7px;
+    }
+
+
+}
+
+
+
+
+/* --------------------------------------------
+this style is only for responsive style for mobile phone
+ ------------------------------------------------*/
+
+
+ @media screen and (max-device-width: 767px) { 
+    /* STYLES HERE */
+    .container {
+        width: 90%;
+    }
+    section{
+        padding: 0;
+    }
+    .matchSectionWrapper {
+        display: block;
+    }
+    .cardwrapper {
+        display: block;
+        /* grid-template-columns: repeat(3,1fr); */
+        /* grid-gap: 1.5em; */
+    }
+    .bannerWrapper {
+        display: block;
+    }
+    
+    .bannerInfo {
+        width: 90%;
+        margin: auto;
+    }
+    
+    h1.bannerTitle {
+        text-align: center;
+        margin: 45px 42px;
+        padding-top: 89px;
+        font-size: 2em;
+        line-height: 1.5;
+    }
+    button.liveBtn {
+        display: block;
+        margin: 44px auto;
+    }
+    .bannerPhoto {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .bImg {
+        margin: auto;
+        display: block;
+    }
+    .buttonBox {
+        background: transparent;
+    }
+    .singleLiveCard {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .matchLiveCardWrapper{
+        display: block;
+    }
+    .footerElement {
+        display: block;
+        text-align: center;
+    }
+    
+
 
  }
